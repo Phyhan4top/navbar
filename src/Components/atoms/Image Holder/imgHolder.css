@@ -1,0 +1,27 @@
+.swiper-button-prev,
+.swiper-button-next {
+  width: 24px !important;
+  height: 24px !important;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5.1px;
+  padding: 13.7px;
+  border-radius: 20.6px;
+  background-color: #fff;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #292929;
+  background: #fff;
+  width: 4px !important;
+  height: 6.7px !important;
+  object-fit: contain;
+  font-size: small !important;
+  text-align: center;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}

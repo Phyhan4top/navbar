@@ -23,36 +23,16 @@ export function NavbarDefault() {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-[2000px] mt-5 px-4 py-2 lg:px-8 lg:py-4 bg-[#149bfc] text-white">
-      <div className="container max-w-[1536px] mx-auto flex items-center justify-between text-2xl">
-        <div className="flex items-center">
-          <FontAwesomeIcon
-            icon={faDumbbell}
-            style={{ fontSize: "50px", rotate: "90deg" }}
-          />
-          <Typography
-            as="a"
-            href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium text-3xl"
-          >
-            Symbol
-          </Typography>
-        </div>
-
-        <div className="hidden lg:block">
-          <SearchBar />
+    <Navbar className="mx-auto max-w-[1512px] h-[80px]  text-black mt-5 px-4 py-2 lg:px-8 lg:py-4 border-[#dcdcdc] border-[2px]">
+      <div className="container max-w-[1348px] mx-auto flex items-center justify-between text-2xl">
+        <div>
+          <img src="/images/Logo.png" alt="logo" className="w-[57.8px] h-[25.3px]" />
         </div>
         <div className="hidden lg:block">
           <NavList />
         </div>
         <div className="hidden lg:block">
-          <Button
-            className={
-              "w-[140px] h-[47px] bg-white text-[#149bfc] font-[Inter] flex items-center justify-center px-32px py-16px"
-            }
-          >
-            Buy Now
-          </Button>
+          <img src="/images/User.png" alt="user" />
         </div>
         <IconButton
           variant="text"
