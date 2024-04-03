@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./imgHolder.css"
 import "swiper/swiper-bundle.css";

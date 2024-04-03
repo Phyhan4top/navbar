@@ -4,10 +4,7 @@ import DetailsCTA from "../../molecules/Details CTA/DetailsCTA";
 import VendorDetails from "../../atoms/Vendor  Details/VendorDetails";
 import ProdView from "../../atoms/Product view/ProdView";
 import ReviewHeader from "../../atoms/Review Header/ReviewHeader";
-import ReviewCard from "../../atoms/Review Card/ReviewCard";
 import Reviews from "../../molecules/Reviews/Reviews";
-import ImageHolder from "../../atoms/Image Holder/ImageHolder";
-import RelatedProdCard from "../../atoms/Product Card/RelatedProdCard";
 import RelatedProd from "../../molecules/Related Product/RelatedProd";
 import Footer from "../../atoms/Footer/Footer";
 

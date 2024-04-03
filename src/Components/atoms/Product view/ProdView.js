@@ -1,6 +1,6 @@
 import React from "react";
-import Platinum from "../Platinum Tag/Platinum";
 import ImageCount from "../Platinum Tag/ImageCount";
+import Platinum from "../Platinum Tag/Platinum";
 const ProdView = () => {
   const images = [
     "car view 2.png",
